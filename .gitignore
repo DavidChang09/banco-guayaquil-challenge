@@ -89,17 +89,3 @@ crash.log
 *.bak
 *.swp
 
-# Documentos y recursos fuera de código
-*.docx
-*.pdf
-*.jpeg
-*.jpg
-*.png
-*.gif
-
-# Carpeta específica de pruebas, puedes adaptarla
-resumen-prueba-tecnica.docx
-ArquitecturaV2.jpeg
-EntidadInventario.jpeg
-EntidadProductos.jpeg
-
