@@ -1,0 +1,105 @@
+#################################
+# Global
+#################################
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+#################################
+# Node / Angular 17
+#################################
+
+node_modules/
+dist/
+.angular/
+coverage/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+#################################
+# .NET Core / C#
+#################################
+
+# Build results
+bin/
+obj/
+out/
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code Workspace
+*.code-workspace
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Auto-generated
+Generated_Code/
+
+# .NET Core Secrets
+secrets.json
+
+# Publish
+publish/
+
+#################################
+# Docker
+#################################
+
+# Docker files that could be generated
+*.pid
+
+#################################
+# Infra / Terraform / IaC (opcional)
+#################################
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+#################################
+# Otros
+#################################
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+
+# Documentos y recursos fuera de código
+*.docx
+*.pdf
+*.jpeg
+*.jpg
+*.png
+*.gif
+
+# Carpeta específica de pruebas, puedes adaptarla
+resumen-prueba-tecnica.docx
+ArquitecturaV2.jpeg
+EntidadInventario.jpeg
+EntidadProductos.jpeg
+

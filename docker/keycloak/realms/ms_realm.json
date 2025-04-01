@@ -1,0 +1,37 @@
+{
+    "realm": "bco_guayaquil_realm",
+    "enabled": true,
+    "displayName": "Banco Guayaquil",
+    "users": [
+      {
+        "username": "carlos.cunalata",
+        "enabled": true,
+        "emailVerified": true,
+        "firstName": "Carlos",
+        "lastName": "Cunalata",
+        "email": "carlosd.cunalatac@gmail.com",
+        "credentials": [
+          {
+            "type": "password",
+            "value": "happycoding"
+          }
+        ]
+      }
+    ],
+    "clients": [
+      {
+        "clientId": "angular-client",
+        "publicClient": true,
+        "redirectUris": ["http://localhost:4200/*"],
+        "webOrigins": ["*"]
+      },
+      {
+        "clientId": "dotnet-client",
+        "secret": "supersecret",
+        "serviceAccountsEnabled": true,
+        "redirectUris": [],
+        "webOrigins": []
+      }
+    ]
+  }
+  

@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:23.0.7
+    container_name: keycloak
+    command: start-dev --import-realm
+    ports:
+      - "8080:8080"
+    environment:
+      KC_DB: dev-mem
+      KC_HTTP_RELATIVE_PATH: /
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin123
+    volumes:
+      - ./realms:/opt/keycloak/data/import
+    networks:
+      - bco_guayaquil
+
+networks:
+  bco_guayaquil:
+    driver: bridge
